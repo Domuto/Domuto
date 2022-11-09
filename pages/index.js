@@ -35,7 +35,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an Web developer based in Atlanta!
+        Hello, I&apos;m an Web developer based in Atlanta, Ga!
       </Box>
 
       <Box display={{ md: 'flex' }}>
