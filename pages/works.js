@@ -11,8 +11,6 @@ import thumbMargelo from '../public/images/works/IMG_1945.jpg'
 import thumbModeTokyo from '../public/images/works/IMG_1949.jpg'
 import thumbStyly from '../public/images/works/IMG_1947.jpg'
 import thumbModeTokyo2 from '../public/images/works/IMG_1946.jpg'
-import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
-import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
 
 const Works = () => (
   <Layout title="Works">
