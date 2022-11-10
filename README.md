@@ -1,6 +1,5 @@
 # Daniel Omuto Homepage
 
-#Thank you Takuya!
 
 ## Stack
 
@@ -24,3 +23,5 @@ $PROJECT_ROOT
 ```
 
 
+#Thank you Takuya!
+https://www.craftz.dog
