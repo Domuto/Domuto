@@ -15,7 +15,7 @@ import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="walknote">
+  <Layout title="PINKFLAMINGOUSA Halloween Party">
     <Container>
       <Title>
       PINKFLAMINGOUSA Halloween Party<Badge>2022</Badge>
@@ -37,7 +37,10 @@ const Work = () => (
         </ListItem>
         
       </List>
-
+      <SimpleGrid columns={2} gap={2}>
+        <WorkImage src="/images/works/IMG_1954.jpg" alt="menkiki" />
+        <WorkImage src="/images/works/IMG_1956.jpg" alt="menkiki" />
+      </SimpleGrid>  
       
     </Container>
   </Layout>

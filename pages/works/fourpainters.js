@@ -4,10 +4,8 @@ import {
   Badge,
   Link,
   List,
-  ListItem,
-  UnorderedList,
-  Heading,
-  Center
+  ListItem,SimpleGrid
+ 
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
@@ -15,7 +13,7 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="The four painters">
+  <Layout title="KODONE ART SHOW">
     <Container>
       <Title>
       KODONE ART SHOW <Badge>2022</Badge>
@@ -38,6 +36,10 @@ const Work = () => (
        
     
 </List>
+      <SimpleGrid columns={2} gap={2}>
+        <WorkImage src="/images/works/IMG_1952.jpg" alt="menkiki" />
+        <WorkImage src="/images/works/IMG_1953.jpg" alt="menkiki" />
+      </SimpleGrid>
     
     </Container>
   </Layout>

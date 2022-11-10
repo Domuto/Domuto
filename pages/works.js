@@ -13,7 +13,7 @@ import thumbStyly from '../public/images/works/IMG_1947.jpg'
 import thumbModeTokyo2 from '../public/images/works/IMG_1946.jpg'
 
 const Works = () => (
-  <Layout title="Works">
+  <Layout title="Projects">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
         PROJECT MOBILE VIEWS 

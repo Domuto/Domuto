@@ -156,9 +156,9 @@ const Home = () => (
        
 
         <Box align="center" my={4}>
-          <NextLink href="/posts" passHref scroll={false}>
+          <NextLink href="https://github.com/Domuto" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              Popular posts
+              GitHub
             </Button>
           </NextLink>
         </Box>

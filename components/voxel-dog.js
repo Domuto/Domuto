@@ -6,14 +6,16 @@ import { DogSpinner, DogContainer } from './voxel-dog-loader'
 
 function easeOutCirc(x) {
   return Math.sqrt(1 - Math.pow(x - 1, 4))
+
+  
 }
 
 const VoxelDog = () => {
   const refContainer = useRef()
   const [loading, setLoading] = useState(true)
   const refRenderer = useRef()
-  const urlDogGLB = ('u.glb')
 
+  const urlDogGLB = ('u.glb');
   const handleWindowResize = useCallback(() => {
     const { current: renderer } = refRenderer
     const { current: container } = refContainer
@@ -22,9 +24,11 @@ const VoxelDog = () => {
       const scH = container.clientHeight
 
       renderer.setSize(scW, scH)
-      
     }
   }, [])
+
+ 
+
 
   /* eslint-disable react-hooks/exhaustive-deps */
   useEffect(() => {
@@ -42,7 +46,12 @@ const VoxelDog = () => {
       renderer.outputEncoding = THREE.sRGBEncoding
       container.appendChild(renderer.domElement)
       refRenderer.current = renderer
+     
       const scene = new THREE.Scene()
+
+     
+     
+    
 
       const target = new THREE.Vector3(-0.5, 1.2, 0)
       const initialCameraPosition = new THREE.Vector3(
@@ -103,6 +112,7 @@ const VoxelDog = () => {
 
         renderer.render(scene, camera)
       }
+      
 
       return () => {
         cancelAnimationFrame(req)
@@ -111,6 +121,12 @@ const VoxelDog = () => {
       }
     }
   }, [])
+
+ 
+  
+
+ 
+
 
   useEffect(() => {
     window.addEventListener('resize', handleWindowResize, false)
@@ -123,5 +139,6 @@ const VoxelDog = () => {
     <DogContainer ref={refContainer}>{loading && <DogSpinner />}</DogContainer>
   )
 }
+
 
 export default VoxelDog

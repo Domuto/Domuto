@@ -4,6 +4,7 @@ import {
   Link,
   List,
   ListItem,
+  SimpleGrid,
   AspectRatio
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -34,9 +35,10 @@ const Work = () => (
       
       </List>
      
-
-      <WorkImage src="/images/works/inkdrop_01.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/inkdrop_02.png" alt="Inkdrop" />
+      <SimpleGrid columns={2} gap={2}>
+        <WorkImage src="/images/works/IMG_1957.jpg" alt="menkiki" />
+        <WorkImage src="/images/works/IMG_1958.jpg" alt="menkiki" />
+      </SimpleGrid>
      
     </Container>
   </Layout>
