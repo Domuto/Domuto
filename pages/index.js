@@ -92,18 +92,15 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           Bio
         </Heading>
-        <BioSection>
-          <BioYear>1996</BioYear>
-          Born in Lancaster Pennsylvania
-        </BioSection>
+        
         <BioSection>
           <BioYear>2019</BioYear>
-          Completed the BBS IN COMPUTER SCIENCE | SOFTWARE ENGINEERING
+          Completed a BBS in Computer Science | Software Engineer
           at Kennesaw State University
         </BioSection>
         <BioSection>
           <BioYear>2019</BioYear>
-           Enrolled at MS IN DATA ANALYSIS at Georgia Institute of Technology
+           Enrolled at MS IN Data Analysis at Georgia Institute of Technology
         </BioSection>
         <BioSection>
           <BioYear>2020 </BioYear>Accenture Software Engineer 
@@ -112,12 +109,12 @@ const Home = () => (
 
     
 
-      <Section delay={0.3}>
-        <Heading as="h3" variant="section-title">
+      <Section  delay={0.3}>
+        <Heading align="center" as="h3" variant="section-title">
           On the web
         </Heading>
         <List>
-          <ListItem>
+          <ListItem align="center"> 
             <Link href="https://github.com/Domuto" target="_blank">
               <Button
                 variant="ghost"
@@ -128,7 +125,7 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
-          <ListItem>
+          <ListItem align="center"  >
             <Link href="https://mobile.twitter.com/_coolthehype" target="_blank">
               <Button
                 variant="ghost"
@@ -140,7 +137,7 @@ const Home = () => (
             </Link>
           </ListItem>
           
-          <ListItem>
+          <ListItem align="center">
             <Link href="https://www.instagram.com/the_danielomuto/?hl=en" target="_blank">
               <Button
                 variant="ghost"

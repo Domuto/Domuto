@@ -54,8 +54,8 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
-          <WorkGridItem id="margelo" thumbnail={thumbMargelo} title="13TH Clothing ">
-            
+          <WorkGridItem id="" thumbnail={thumbMargelo} title="13TH Clothing ">
+          Wesbite for the brand 13TH Clothing 
           </WorkGridItem>
         </Section>
 
@@ -66,7 +66,7 @@ const Works = () => (
             thumbnail={thumbModeTokyo}
             title="VP SOLUTIONS"
           >
-            Made a website for VP Solutions Valet company 
+           Website for VP Solutions Valet company 
           </WorkGridItem>
         </Section>
 
@@ -78,12 +78,12 @@ const Works = () => (
             thumbnail={thumbModeTokyo2}
             title="FILMSBYNAS"
           >
-            Made a Website for FILMSBYNAS
+            Website for FILMSBYNAS
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
           <WorkGridItem id="" thumbnail={thumbStyly} title="PEACHSOLDIER ">
-Made a Website for the brand PEACHSOLDIER          </WorkGridItem>
+Website for the brand PEACHSOLDIER          </WorkGridItem>
           
         </Section>
 
