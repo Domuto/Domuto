@@ -15,7 +15,7 @@ const VoxelDog = () => {
   const [loading, setLoading] = useState(true)
   const refRenderer = useRef()
 
-  const urlDogGLB = ('u.glb');
+  const urlDogGLB = ('untitled4.glb');
   const handleWindowResize = useCallback(() => {
     const { current: renderer } = refRenderer
     const { current: container } = refContainer
